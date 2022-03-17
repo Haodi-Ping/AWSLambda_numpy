@@ -1,0 +1,12 @@
+service: numpylambda
+
+
+provider:
+  name: aws
+  runtime: python3.8
+  memorySize: 1536
+  timeout: 600
+
+functions:
+  main:
+    handler: lambda_function.testfunctions
